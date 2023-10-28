@@ -5,7 +5,9 @@ import { Configuration } from '@midwayjs/core';
   importConfigs: [
     {
       default: {
-        socket: {},
+        socket: {
+          port: 8090,
+        },
       },
     },
   ],

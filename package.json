@@ -1,6 +1,6 @@
 {
   "name": "midway-socket",
-  "version": "0.1.0",
+  "version": "3.0.1",
   "description": "midway framework for Socket",
   "main": "dist/index.js",
   "typings": "index.d.ts",
@@ -15,7 +15,7 @@
     "midway",
     "IoC",
     "socket",
-    "scene"
+    "iot"
   ],
   "author": "Yiwei Mao <maoyiwei@rabc.sg>",
   "repository": {
@@ -30,8 +30,6 @@
   "license": "MIT",
   "devDependencies": {
     "@midwayjs/cli": "^2.0.0",
-    "@midwayjs/core": "^3.12.0",
-    "@midwayjs/decorator": "^3.12.0",
     "@midwayjs/mock": "^3.12.0",
     "@types/jest": "^29.2.0",
     "@types/node": "^16.11.22",
@@ -40,5 +38,9 @@
     "mwts": "^1.3.0",
     "ts-jest": "^29.0.3",
     "typescript": "~4.8.0"
+  },
+  "dependencies": {
+    "@midwayjs/core": "^3.12.3",
+    "@midwayjs/logger": "^2.15.0"
   }
 }
