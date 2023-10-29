@@ -1,6 +1,6 @@
 {
   "name": "midway-socket",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "midway framework for Socket",
   "main": "dist/index.js",
   "typings": "index.d.ts",
