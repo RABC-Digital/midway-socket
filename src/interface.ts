@@ -21,7 +21,7 @@ export type IMidwaySocketApplication = IMidwayApplication<
       NextFunction,
       undefined
     >;
-    clients: net.Socket[];
+    clients: IMidwaySocketContext[];
   }
 > &
   net.Server;
