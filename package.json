@@ -1,6 +1,6 @@
 {
   "name": "midway-socket",
-  "version": "3.0.3",
+  "version": "3.15.1",
   "description": "midway framework for Socket",
   "main": "dist/index.js",
   "typings": "index.d.ts",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "devDependencies": {
     "@midwayjs/cli": "^2.0.0",
-    "@midwayjs/mock": "^3.12.0",
+    "@midwayjs/mock": "^3.15.8",
     "@types/jest": "^29.2.0",
     "@types/node": "^16.11.22",
     "cross-env": "^6.0.0",
@@ -40,7 +40,7 @@
     "typescript": "~4.8.0"
   },
   "dependencies": {
-    "@midwayjs/core": "^3.12.3",
+    "@midwayjs/core": "^3.15.8",
     "@midwayjs/logger": "^2.15.0"
   }
 }
